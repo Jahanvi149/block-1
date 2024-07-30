@@ -1,0 +1,99 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Libre Franklin', sans-serif;
+
+}
+
+
+
+.container {
+    width: 700px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.content {
+    text-align: center;
+}
+
+.content img.logo {
+    width: 100px;
+    height: 80px;
+}
+.content h1 {
+    font-size: 35px;
+    line-height: 1;
+    text-transform: capitalize;
+    color: #969696;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.content h1 strong {
+    color: #000;
+    text-transform: lowercase;
+}
+
+.content p {
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.content form {
+    margin-bottom: 70px;
+}
+
+.content form input.email {
+    width: 60%;
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid #4c7bf3;
+}
+
+.content form input.submit {
+    width: 25%;
+    background: #4c7bf3;
+    color: #fff;
+    padding: 15px;
+    border-radius: 25px;
+    margin-left: 20px;
+    border: 0;
+}
+
+input.email:focus {
+    outline: none;
+}
+::placeholder {
+    color: #4c7bf3;
+}
+.content .content-img img {
+    width: 640px;
+    height: 390px;
+    margin-bottom: 50px;
+}
+
+.icons {width: 100%;}
+
+.icons ul.social-icon {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.icons ul.social-icon li {
+ 
+}
+
+.icons ul.social-icon li img.soc-icon {
+    width: 30px;
+}
+p.footer {
+    font-size: 12px;
+    color: #cdcdcd;
+}
+.icons ul.social-icon li a {
+    display: inline-block;
+}
